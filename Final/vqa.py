@@ -195,10 +195,10 @@ def main(argv):
 
     start = time.time()
     
-    with open('./tokenizer.pickle', 'rb') as handle:
+    with open('/Final/tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
             
-    with open('./answer_encoder.pickle', 'rb') as handle:
+    with open('/Final/answer_encoder.pickle', 'rb') as handle:
         encoder = pickle.load(handle)
 
     for _ in range(num_train_steps):
