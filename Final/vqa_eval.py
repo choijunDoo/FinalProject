@@ -184,10 +184,10 @@ def main(argv):
     dataset = data_utils.build_clevr_iterator(
         batch_size=FLAGS.batch_size, split="validation", resolution=(128, 128))
     
-    with open('./tokenizer.pickle', 'rb') as handle:
+    with open('/Final/tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
             
-    with open('./answer_encoder.pickle', 'rb') as handle:
+    with open('/Final/answer_encoder.pickle', 'rb') as handle:
         encoder = pickle.load(handle)
 
     loss, acc = run_eval(dataset, tokenizer, encoder, model, slot_model)
