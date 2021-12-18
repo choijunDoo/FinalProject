@@ -5,11 +5,11 @@ Slot-Attention: (https://github.com/google-research/google-research/tree/master/
 
 ## Slot-Attention
 
-To train the object discovery model, navigate to the parent directory
-(`google-research`) and run:
+To train the set prediction model, navigate to the parent directory 
+run:
 
 ```
-python -m slot_attention.object_discovery.train
+python -m slot_attention.set_prediction.train
 ```
 
 ## VQA Training
