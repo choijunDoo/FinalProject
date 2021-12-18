@@ -9,7 +9,7 @@ To train the set prediction model, navigate to the parent directory
 run:
 
 ```
-python -m slot_attention.set_prediction.train
+python -m Final.set_prediction.train
 ```
 
 ## VQA Training
