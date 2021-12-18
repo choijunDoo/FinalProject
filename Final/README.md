@@ -27,6 +27,7 @@ python -m slot_attention.vqa_eval
 ## Pre-trained model checkpoints
 
 We provide checkpoints of pre-trained models on the CLEVR dataset.
+
 Slot-Attention Set prediction model dir: "/tmp/set_prediction/".
 
 VQA model dir: "/slot_attention/vqa/".
