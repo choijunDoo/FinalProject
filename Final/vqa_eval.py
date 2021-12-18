@@ -98,7 +98,7 @@ def load_vqa_model():
     # Load the weights.
     ckpt = tf.train.Checkpoint(network=model)
     ckpt_manager = tf.train.CheckpointManager(
-        ckpt, directory="./slot_attention/tmp/vqa/", max_to_keep=100)
+        ckpt, directory="/tmp/vqa/", max_to_keep=100)
     if ckpt_manager.latest_checkpoint:
         ckpt.restore(ckpt_manager.latest_checkpoint)
         logging.info("Restored from %s", ckpt_manager.latest_checkpoint)
