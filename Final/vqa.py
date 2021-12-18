@@ -20,7 +20,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string("model_dir", "./slot_attention/tmp/set_prediction5/",
+flags.DEFINE_string("model_dir", "./slot_attention/tmp/vqa/",
                     "Where to save the checkpoints.")
 flags.DEFINE_integer("seed", 0, "Random seed.")
 flags.DEFINE_integer("batch_size", 128, "Batch size for the model.")
