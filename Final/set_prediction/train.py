@@ -33,7 +33,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string("model_dir", "./slot_attention/tmp/set_prediction/",
+flags.DEFINE_string("model_dir", "/tmp/set_prediction/",
                     "Where to save the checkpoints.")
 flags.DEFINE_integer("seed", 0, "Random seed.")
 flags.DEFINE_integer("batch_size", 64, "Batch size for the model.")
