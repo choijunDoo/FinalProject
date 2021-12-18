@@ -15,13 +15,13 @@ python -m slot_attention.object_discovery.train
 ## VQA Training
 
 ```
-python -m slot_attention.vqa
+python -m Final.vqa
 ```
 
 ## VQA Test
 
 ```
-python -m slot_attention.vqa_eval
+python -m Final.vqa_eval
 ```
 
 ## Pre-trained model checkpoints
