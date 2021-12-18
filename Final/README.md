@@ -28,5 +28,5 @@ python -m slot_attention.vqa_eval
 
 We provide checkpoints of pre-trained models on the CLEVR dataset. 
 The checkpoints are available on Google Cloud Storage:
-* Set prediction: [gs://gresearch/slot-attention/set-prediction](https://console.cloud.google.com/storage/browser/gresearch/slot-attention/set-prediction) (~5MB)
-* VQA model: 
+* Set prediction: [gs://FinalProject/set_prediction](https://drive.google.com/drive/folders/1xyrDDiiNmBDjOhgbvYFyVvRewzBbcRCK?usp=sharing)
+* VQA model: [gs://FinalProject/VQA](https://drive.google.com/drive/folders/1lHClh1SEhzrCCorEDvvnzXKUuLKhdEdw?usp=sharing)
